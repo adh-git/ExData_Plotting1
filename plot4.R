@@ -23,7 +23,7 @@ rm(list=ls())
 classes <- c("character", "character" , replicate(7, "numeric"))
 
 # Load data
-data0 <- read.table("./data/household_power_consumption.txt", 
+data0 <- read.table("./household_power_consumption.txt", 
                     sep=";", header = TRUE, na.strings = "?", colClasses = classes)
 
 # Check that data has 2075259 rows and 9 columns
