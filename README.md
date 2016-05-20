@@ -1,4 +1,21 @@
-## Introduction
+## Assignment 1 for Coursera's Exploring Data Class
+
+### Purpose
+Using the base plotting system, construct 4 plots that 
+examine how household energy usage varies over a 2-day period in February, 2007
+
+### Contents of Repo
+  + plot1.R: constructs a histogram of global active power over a 2-day period
+  + plot2.R: constructs a line graph of global active power as a function of time over a 2-day period
+  + plot3.R: constructs graph of the three sub metering energiesa as a function of time over a 2-day period
+  + plot4.R: constructs a multi-graph plot of 
+     1. a histogram of global active power
+     2. a line graph of voltage as a function of line
+     3. line graphs of the three sub metering energies as a function of time
+     4. a line graph of global reactive power as a function of time
+  + plot1.png, plot2.png, plot3.png, plot4.png: Corresponding png output plots 
+
+### Data
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
@@ -34,10 +51,6 @@ web site</a>:
 </ol>
 
 ## Loading the data
-
-
-
-
 
 When loading the dataset into R, please consider the following:
 
